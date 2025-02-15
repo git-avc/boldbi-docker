@@ -4,7 +4,7 @@ services:
    image: syncfusion/boldbi
    restart: always
    ports:
-     - 80:80
+     - 8085:80
    environment:
       # Required
      - BOLD_SERVICES_UNLOCK_KEY=<BOLD_SERVICES_UNLOCK_KEY>   # Set the unlock key value from the unlock_key.lic file, which can be obtained from the accounts page(https://www.boldbi.com/account).
